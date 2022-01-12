@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+import {Link as LinkR} from 'react-router-dom';
+import {Link as LinkS} from 'react-scroll';
 
 export const ContactContainer = styled.div`
     min-height: 690px;
@@ -25,7 +26,7 @@ export const ContactWrap = styled.div`
     }
 `
 
-export const ContactIcon = styled(Link)`
+export const ContactIcon = styled(LinkS)`
     margin-left: 32px;
     margin-top: 32px;
     padding: 70px;
@@ -100,6 +101,25 @@ export const FormButton = styled.button`
 
     &:hover {
         background: #3BE2DD;
+    }
+`
+
+export const FormBtnLink = styled(LinkR)`
+    border-radius: 50px;
+    padding: 10px 22px;
+    white-space: nowrap;
+    color: #010606;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.3s ease-in-out;
+        background: #00A2FF;
+        color: #010606;
     }
 `
 

@@ -12,16 +12,23 @@ import { ContactContainer,
         VideoBg } from './ContactElements';
 import Video from '../../videos/spacetheme.mp4';
 import emailjs from 'emailjs-com';
+import {useNavigate} from 'react-router-dom'
 
 export const ContactForm = () => {
+    const navigate = useNavigate();
 
     function sendEmail(e) {
         e.preventDefault();
 
         emailjs.sendForm('crifology_gmail.com', 'emails_crifology', e.target, 'user_kuI4AIJw3gzrshRW4lqab')
-        .then(res => {console.log(res);})
-        .catch(err =>console.log(err));
+        .then(() => navigate('/thanks'))
+        .catch(err => {
+            //handle error with UI that shows error
+            console.log(err)
+        });
     }
+
+    
 
 
     return (
@@ -40,8 +47,8 @@ export const ContactForm = () => {
                             <FormLabel htmlFor='for'>Your Email</FormLabel>
                             <FormInput type="email" name="email" required />
                             <FormLabel htmlFor='for'>Message to Me</FormLabel>
-                            <FormInput type="text" name="message" col="20" rows="8" required />
-                            <FormButton type="submit" value="submit">Submit</FormButton>
+                            <FormInput type="text" name="message" col="20" rows="8" required='Required' />
+                            <FormButton type='submit'>Submit</FormButton>
                         </Form>
                     </ContactContent>
                 </ContactWrap>
