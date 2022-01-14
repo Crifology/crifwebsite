@@ -2,6 +2,7 @@ import React from 'react';
 import {ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP, ProjectIconsLink} from './ProjectsElements'
 import Icon1 from '../../images/candycrush.png';
 import Icon2 from '../../images/pizzahutt.png';
+import Icon3 from '../../images/covid19.png'
 
 export const Projects = () => {
     return (
@@ -27,6 +28,16 @@ export const Projects = () => {
                 <ProjectsP>My second gaming application using Javascript with KaboomJS -
                 Note that I also deployed through Heroku as it's live! Will be working to update over time...
                 ENJOY! </ProjectsP>
+                </ProjectsCard>
+
+                <ProjectsCard>
+                <ProjectIconsLink href="//rapidapi.com/crifology@gmail.com/api/crifcovidapi/" target="_blank" aria-label="Covid 19 API">
+                <ProjectsIcon src={Icon3} />
+                </ProjectIconsLink>
+                <ProjectsH2>Free Custom API - CrifCovidAPI</ProjectsH2>
+                <ProjectsP>This is my first published API on RapidAPI.com and Heroku - using Express, Axios, and Cheerio NPMs 
+                I took some of the leading world news outlets and combined their Covid articles into one seemless API - only free package 
+                available as it's a very basic API </ProjectsP>
                 </ProjectsCard>
 
             </ProjectsWrapper>
