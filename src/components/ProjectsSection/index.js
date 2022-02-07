@@ -2,7 +2,8 @@ import React from 'react';
 import {ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP, ProjectIconsLink} from './ProjectsElements'
 import Icon1 from '../../images/candycrush.png';
 import Icon2 from '../../images/pizzahutt.png';
-import Icon3 from '../../images/covid19.png'
+import Icon3 from '../../images/covid19.png';
+import Icon4 from '../../images/schoolbooks.jpg'
 
 export const Projects = () => {
     return (
@@ -38,6 +39,15 @@ export const Projects = () => {
                 <ProjectsP>This is my first published API on RapidAPI.com and Heroku - using Express, Axios, and Cheerio NPMs 
                 I took some of the leading world news outlets and combined their Covid articles into one seemless API - only free package 
                 available as it's a very basic API </ProjectsP>
+                </ProjectsCard>
+
+                <ProjectsCard>
+                <ProjectIconsLink href="//https://alphonsoscholarshipfund.s2.48in48.org/" target="_blank" aria-label="Covid 19 API">
+                <ProjectsIcon src={Icon4} />
+                </ProjectIconsLink>
+                <ProjectsH2>48in48 Project - Wordpress Website for Alphonso Scholarship Fund Inc</ProjectsH2>
+                <ProjectsP>Using Wordpress and working with 48in48's team of individuals, we constructed a complete multi-page website using 
+                Wordpress features within 48 hours.</ProjectsP>
                 </ProjectsCard>
 
             </ProjectsWrapper>
