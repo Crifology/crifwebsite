@@ -42,7 +42,7 @@ export const Projects = () => {
                 </ProjectsCard>
 
                 <ProjectsCard>
-                <ProjectIconsLink href="//https://alphonsoscholarshipfund.s2.48in48.org/" target="_blank" aria-label="Covid 19 API">
+                <ProjectIconsLink href="//alphonsoscholarshipfund.s2.48in48.org/" target="_blank" aria-label="Covid 19 API">
                 <ProjectsIcon src={Icon4} />
                 </ProjectIconsLink>
                 <ProjectsH2>48in48 Project - Wordpress Website for Alphonso Scholarship Fund Inc</ProjectsH2>
