@@ -1,9 +1,7 @@
 import React from 'react';
 import {ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP, ProjectIconsLink} from './ProjectsElements'
-import Icon1 from '../../images/candycrush.png';
 import Icon2 from '../../images/pizzahutt.png';
 import Icon3 from '../../images/covid19.png';
-import Icon4 from '../../images/schoolbooks.jpg'
 
 export const Projects = () => {
     return (
