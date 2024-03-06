@@ -1,4 +1,4 @@
-import React from 'react';
+yimport React from 'react';
 import {ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP, ProjectIconsLink} from './ProjectsElements'
 import Icon1 from '../../images/candycrush.png';
 import Icon2 from '../../images/pizzahutt.png';
@@ -27,10 +27,11 @@ export const Projects = () => {
                 </ProjectIconsLink>
                 <ProjectsH2>PizzaFace! 2D Platform Jumper</ProjectsH2>
                 <ProjectsP>My second gaming application using Javascript with KaboomJS -
-                Note that I also deployed through Heroku as it's live! Will be working to update over time...
+                Note that I also deployed through Netlify as it's live! Will be working to update over time...
                 ENJOY! </ProjectsP>
                 </ProjectsCard>
 
+                /*
                 <ProjectsCard>
                 <ProjectIconsLink href="//rapidapi.com/crifology@gmail.com/api/crifcovidapi/" target="_blank" aria-label="Covid 19 API">
                 <ProjectsIcon src={Icon3} />
@@ -40,7 +41,9 @@ export const Projects = () => {
                 I took some of the leading world news outlets and combined their Covid articles into one seemless API - only free package 
                 available as it's a very basic API </ProjectsP>
                 </ProjectsCard>
-              
+                */
+
+                /*
                 <ProjectsCard>
                 <ProjectIconsLink href="//alphonsoscholarshipfund.s2.48in48.org/" target="_blank" aria-label="Covid 19 API">
                 <ProjectsIcon src={Icon4} />
@@ -49,7 +52,7 @@ export const Projects = () => {
                 <ProjectsP>Using Wordpress and working with 48in48's team of individuals, we constructed a complete multi-page website using 
                 Wordpress features within 48 hours.</ProjectsP>
                 </ProjectsCard>
-                
+                */
 
             </ProjectsWrapper>
         </ProjectsContainer>
