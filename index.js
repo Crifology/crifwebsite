@@ -1,4 +1,4 @@
-yimport React from 'react';
+import React from 'react';
 import {ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP, ProjectIconsLink} from './ProjectsElements'
 import Icon1 from '../../images/candycrush.png';
 import Icon2 from '../../images/pizzahutt.png';
