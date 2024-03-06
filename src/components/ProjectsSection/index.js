@@ -11,6 +11,7 @@ export const Projects = () => {
             <ProjectsH1>My Projects!</ProjectsH1>
             <ProjectsWrapper>
 
+                /*
                 <ProjectsCard>
                 <ProjectIconsLink href="//crifcandycrush.herokuapp.com/" target="_blank" aria-label="CrifCandyCrush">
                     <ProjectsIcon src={Icon1} />
@@ -20,27 +21,29 @@ export const Projects = () => {
                 It should be noted that minimal CSS and HTML was used, but was for the functionality
                 of the game rather than aestetics. </ProjectsP>
                 </ProjectsCard>
+                */
 
                 <ProjectsCard>
-                <ProjectIconsLink href="//pizzaface-crifapp.herokuapp.com/" target="_blank" aria-label="PizzaFace!">
+                <ProjectIconsLink href="//pizzaface.crifology.com/" target="_blank" aria-label="PizzaFace!">
                 <ProjectsIcon src={Icon2} />
                 </ProjectIconsLink>
                 <ProjectsH2>PizzaFace! 2D Platform Jumper</ProjectsH2>
                 <ProjectsP>My second gaming application using Javascript with KaboomJS -
-                Note that I also deployed through Heroku as it's live! Will be working to update over time...
+                Note that I also deployed through Netlify as it's live! Will be working to update over time...
                 ENJOY! </ProjectsP>
                 </ProjectsCard>
 
+                
                 <ProjectsCard>
-                <ProjectIconsLink href="//rapidapi.com/crifology@gmail.com/api/crifcovidapi/" target="_blank" aria-label="Covid 19 API">
+                <ProjectIconsLink href="//crifshopplusplus.netlify.app" target="_blank" aria-label="ShopPlus Clone Store">
                 <ProjectsIcon src={Icon3} />
                 </ProjectIconsLink>
-                <ProjectsH2>Free Custom API - CrifCovidAPI</ProjectsH2>
-                <ProjectsP>This is my first published API on RapidAPI.com and Heroku - using Express, Axios, and Cheerio NPMs 
-                I took some of the leading world news outlets and combined their Covid articles into one seemless API - only free package 
-                available as it's a very basic API </ProjectsP>
+                <ProjectsH2>ShopPlus+ Amazon Clone Creation</ProjectsH2>
+                <ProjectsP>My attempt at making a working eCommerce store using Login creations, order histories, and confirm purchases through backend. </ProjectsP>
                 </ProjectsCard>
+                
 
+                /*
                 <ProjectsCard>
                 <ProjectIconsLink href="//alphonsoscholarshipfund.s2.48in48.org/" target="_blank" aria-label="Covid 19 API">
                 <ProjectsIcon src={Icon4} />
@@ -49,7 +52,8 @@ export const Projects = () => {
                 <ProjectsP>Using Wordpress and working with 48in48's team of individuals, we constructed a complete multi-page website using 
                 Wordpress features within 48 hours.</ProjectsP>
                 </ProjectsCard>
-
+                */
+        
             </ProjectsWrapper>
         </ProjectsContainer>
 
